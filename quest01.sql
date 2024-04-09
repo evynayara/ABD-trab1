@@ -9,11 +9,8 @@ CREATE DATABASE trab1_abds5
 	CONNECTION LIMIT = -1;
 
 ALTER DATABASE trab1_abds5 SET datestyle TO 'ISO, DMY';
--- Apenas se necessário
 SET datestyle TO postgres, dmY;
-
 \c trab1_abds5
-
 SET TIMEZONE TO 'UTC';
 
 CREATE TABLE paciente (
